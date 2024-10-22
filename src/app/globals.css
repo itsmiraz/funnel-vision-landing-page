@@ -32,6 +32,10 @@
   background: linear-gradient(126.27deg, #0052CC -281.63%, #001B2E 42.23%);
 
 }
+.linier-gradient-right-to-left {
+  background: linear-gradient(200deg, #0052CC -281.63%, #001B2E 42.23%);
+}
+
 
 body {
   color: var(--foreground);
