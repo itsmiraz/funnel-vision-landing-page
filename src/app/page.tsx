@@ -7,7 +7,7 @@ import FunnelBuilder from "./components/funnelBuilder";
 import FunnelFreedom from "./components/funnelFreedom";
 import FunnelSteps from "./components/funnelSteps";
 import Hero from "./components/hero";
-import SuccessStories from "./components/SuccessStories";
+import SuccessStories from "./components/successStories";
 import TailoredSolutions from "./components/tailoredSolutions";
 
 export default function Home() {
