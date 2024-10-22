@@ -1,40 +1,40 @@
 import React from "react";
 
 const ChooseFunnel = () => {
-  const planData = [
-    {
-      title: "Free Plan",
-      desc: "Dip your toes in with",
-      credit: "150 credits",
-      active: false,
-    },
-    {
-      title: "Basic Plan",
-      desc: "",
-      credit: "800 credits/month",
-      bottomDesc: "to kickstart your funnel empire",
-      active: false,
-    },
-    {
-      title: "Pro Plan",
-      desc: "",
-      credit: "3500 credits/month",
-      bottomDesc: "for serious funnel builders",
-      active: true,
-    },
-    {
-      title: "Enterprise Plan",
-      desc: "",
-      credit: "Unlimited credits",
-      active: true,
-    },
-    {
-      title: "Free Plan",
-      desc: "Dip your toes in with",
-      credit: "150",
-      active: false,
-    },
-  ];
+  // const planData = [
+  //   {
+  //     title: "Free Plan",
+  //     desc: "Dip your toes in with",
+  //     credit: "150 credits",
+  //     active: false,
+  //   },
+  //   {
+  //     title: "Basic Plan",
+  //     desc: "",
+  //     credit: "800 credits/month",
+  //     bottomDesc: "to kickstart your funnel empire",
+  //     active: false,
+  //   },
+  //   {
+  //     title: "Pro Plan",
+  //     desc: "",
+  //     credit: "3500 credits/month",
+  //     bottomDesc: "for serious funnel builders",
+  //     active: true,
+  //   },
+  //   {
+  //     title: "Enterprise Plan",
+  //     desc: "",
+  //     credit: "Unlimited credits",
+  //     active: true,
+  //   },
+  //   {
+  //     title: "Free Plan",
+  //     desc: "Dip your toes in with",
+  //     credit: "150",
+  //     active: false,
+  //   },
+  // ];
 
   return (
     <div className="pb-[140px]">
