@@ -15,18 +15,18 @@ const FunnelBuilder = () => {
           className=""
         />
         <div className="pr-[103px]">
-          <h2 className="text-[#F7F9FB] text-[36px] leading-[50px] font-bold">
+          <h2 className="text-[#F7F9FB] font-roboto text-[36px] leading-[50px] font-bold">
             Meet your AI <br />
             funnel-building partner
           </h2>
-          <p className="text-[16px] pt-[23px] font-semibold">
+          <p className="text-[16px] pt-[23px] font-opensans  font-semibold">
             Meet Funnel Vision: Your AI partner in funnel <br /> building and
             profit-making. Whether you're <br /> launching your first product,
             diversifying from <br /> affiliate marketing, or monetizing your
             influence, <br /> we've got you covered.
           </p>
           <br />
-          <p className="text-[16px] font-semibold ">
+          <p className="text-[16px]  font-opensans font-semibold ">
             Just tell us your niche, and we'll handle the rest - <br /> from
             audience research to product creation, <br /> copywriting to funnel
             design. No more technical <br /> hurdles, no more writer's block.
