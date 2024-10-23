@@ -4,7 +4,7 @@ import Image from "next/image";
 import AnimatedDOt from "@/assets/icons/animatedDot.svg";
 const FunnelFreedom = () => {
   return (
-    <div className="py-[140px] px-[20px] relative">
+    <div className="py-[60px] md:py-[140px] px-[20px] relative">
       <div className="max-w-[1062px] gap-y-[40px] gap-x-[66px]  flex md:flex-row flex-col-reverse justify-between items-center py-[46px]  linier-gradient-left-to-right mx-auto rounded-[20px]">
         <div className="md:pl-[103px]">
           <h2 className="text-[#F7F9FB]  md:text-start text-center font-roboto text-[36px] leading-[50px] font-bold">

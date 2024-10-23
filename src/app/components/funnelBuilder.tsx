@@ -5,7 +5,7 @@ import AnimatedDOt from "@/assets/icons/animatedDot.svg";
 import FunnelBuilderImage from "@/assets/images/funnel-builder.webp";
 const FunnelBuilder = () => {
   return (
-    <div className="py-[140px] px-[20px] relative">
+    <div className="pb-[60px] md:py-[140px] px-[20px] relative">
       <div className="max-w-[1062px] gap-y-[80px] gap-x-[66px]  flex    md:flex-row flex-col justify-between items-center py-[46px] linier-gradient-right-to-left  mx-auto rounded-[20px]">
         <Image src={FunnelBuilderImage} alt="funnel-vision" className="" />
         <div className="md:pr-[103px]">

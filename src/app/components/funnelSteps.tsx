@@ -138,7 +138,7 @@ const FunnelSteps = () => {
           </div>
         </div>
       </div>
-      <p className="text-[16px] font-opensans text-center pt-10 font-semibold">
+      <p className="text-[16px] font-opensans text-center md:pt-10 font-semibold">
         It's that straightforward. Funnel Vision handles the complex stuff, so
         you <br className="md:block hidden" /> can focus on scaling your business and connecting with your
         audience.

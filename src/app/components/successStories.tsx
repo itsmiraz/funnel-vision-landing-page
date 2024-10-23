@@ -93,7 +93,7 @@ const SuccessStories = () => {
 
   return (
     <div className="relative pb-[140px]">
-      <h1 className="text-3xl font-bold text-center text-[#F7F9FB]">
+      <h1 className="text-3xl px-[24px] font-bold text-center text-[#F7F9FB]">
         Success stories from the Funnel Vision community
       </h1>
       <div className="mt-[50px] relative">
@@ -105,7 +105,7 @@ const SuccessStories = () => {
           >
             {doubledData.map((item, i) => (
               <div
-                className="rounded-[20px] custom-card-inner-shadow  w-[409px] min-w-[409px] py-[31px] px-[20px] bg-[#001B2E99] shadow-lg"
+                className="rounded-[20px] custom-card-inner-shadow  md:w-[409px] min-w-[409px] py-[31px] px-[20px] bg-[#001B2E99] shadow-lg"
                 key={i}
               >
                 <div className="flex items-start justify-between">
@@ -140,7 +140,7 @@ const SuccessStories = () => {
           >
             {doubledData.map((item, i) => (
               <div
-                className="rounded-[20px] custom-card-inner-shadow  w-[409px] min-w-[409px] py-[31px] px-[20px] bg-[#001B2E99] shadow-lg"
+                className="rounded-[20px] custom-card-inner-shadow  md:w-[409px]  min-w-[409px] py-[31px] px-[20px] bg-[#001B2E99] shadow-lg"
                 key={i}
               >
                 <div className="flex items-start justify-between">
@@ -173,7 +173,7 @@ const SuccessStories = () => {
           >
             {doubledData.map((item, i) => (
               <div
-                className="rounded-[20px] custom-card-inner-shadow  w-[409px] min-w-[409px] py-[31px] px-[20px] bg-[#001B2E99] shadow-lg"
+                className="rounded-[20px] custom-card-inner-shadow  md:w-[409px]  min-w-[409px] py-[31px] px-[20px] bg-[#001B2E99] shadow-lg"
                 key={i}
               >
                 <div className="flex items-start justify-between">

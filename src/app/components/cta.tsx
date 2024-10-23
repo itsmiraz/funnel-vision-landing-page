@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const CTA = () => {
   return (
-    <div className="pb-[140px]">
+    <div className="pb-[100px] px-[20px] md:pb-[140px]">
      <div className="relative rounded-[20px]  overflow-hidden mx-auto w-fit h-fit md:w-[1052px] md:h-[370px] p-5">
        <div
         style={{

@@ -47,8 +47,8 @@ const AiPowerHouse = () => {
   ];
 
   return (
-    <div className="pt-[140px]">
-      <div className="max-w-[1071px]  relative  pt-[50px]  md:px-[25px]  linier-gradient-left-to-right   mx-auto rounded-[20px]">
+    <div className="pt-[60px] md:pt-[140px]">
+      <div className="max-w-[1071px]  relative  pt-[50px]  md:px-[25px]  linier-gradient-left-to-right-always   mx-auto rounded-[20px]">
         <h1 className="text-3xl px-[16px] md:px-0 font-bold text-center text-[#F7F9FB]">
           Success stories from the Funnel Vision community
         </h1>
