@@ -17,16 +17,16 @@ const FunnelSteps = () => {
       <div className="max-w-[599px]  px-[26px] mx-auto py-10">
         {/* Step 1 */}
         <div
-          className={`flex md:flex-row flex-col pb-[60px] justify-center gap-x-[49px]`}
+          className={`flex md:flex-row flex-col md:items-center pb-[60px] justify-center gap-x-[49px]`}
         >
-          <Image src={Step1} alt="steps" width={263} height={123} />
+          <Image src={Step1} alt="steps" className="w-[273px] h-[123px]" />
           <div>
             <h3 className="text-[#F7F9FB] font-roboto whitespace-nowrap font-bold text-[26px] leading-[40px]">
               Share your niche
             </h3>
             <p className="font-semibold text-[16px] pt-[16px] font-opensans  ">
-              Tell us what you know best - your <br /> affiliate niche, your
-              content sweet <br /> spot, or your entrepreneurial vision.
+              Tell us what you know best - your  affiliate niche, your
+              content sweet  spot, or your entrepreneurial vision.
             </p>
           </div>
         </div>
