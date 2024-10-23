@@ -7,12 +7,12 @@ import Image from 'next/image'
 
 const Footer = () => {
   return (
-    <div className='pb-[50px] px-20'>
+    <div className='max-w-[1030px] mx-auto pb-[50px] px-4'>
 
     <div className='flex  md:flex-row gap-y-[30px] flex-col-reverse justify-between items-center'>
       <Image className='md:block hidden' src={Logo} alt='logo
       '/>
-      <p className='text-[14px] font-semibold font-opensans opacity-60'>
+      <p className='text-[14px] -translate-x-6 font-semibold font-opensans opacity-60'>
       Copyright@Funnel Vision-2024
       </p>
       <div className='flex gap-x-[14px]'>
