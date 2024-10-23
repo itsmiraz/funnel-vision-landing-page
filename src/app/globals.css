@@ -91,3 +91,40 @@ body {
 .slider:hover {
   animation-play-state: paused;
 }
+
+
+
+/* for animating the border bubbles */
+@keyframes bubble-move-top {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(1000px, 0); /* Moves from left to right */
+  }
+  100% {
+    transform: translate(0, 0);
+    /* Moves from left to right */
+  }
+}
+
+@keyframes bubble-move-bottom {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-1000px, 0); /* Moves from right to left */
+  }
+  100% {
+    transform: translate(0, 0);
+    /* Moves from left to right */
+  }
+}
+
+.animate-bubble-top {
+  animation: bubble-move-top 20s linear infinite;
+}
+
+.animate-bubble-bottom {
+  animation: bubble-move-bottom 20s linear infinite;
+}
