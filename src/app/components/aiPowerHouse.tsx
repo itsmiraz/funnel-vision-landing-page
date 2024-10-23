@@ -1,10 +1,13 @@
+/* eslint-disable react/no-unescaped-entities */
 import ResarchIcon from "@/assets/icons/marketReseachIcon.svg";
 import ProductIcon from "@/assets/icons/productIon.svg";
 import MagicIcon from "@/assets/icons/magicIcon.svg";
 import BrandIdentity from "@/assets/icons/brandIdentity.svg";
 import SalesConvert from "@/assets/icons/salesConvertion.svg";
 import FunnelSetup from "@/assets/icons/funnelSetup.svg";
-
+import GreenDot from "@/assets/icons/greenDot.svg";
+import Graphic from "@/assets/icons/graphic.svg";
+import Dots from "@/assets/icons/dots.svg";
 const AiPowerHouse = () => {
   const data = [
     {
@@ -41,25 +44,89 @@ const AiPowerHouse = () => {
 
   return (
     <div className="pt-[140px]">
-      <div className="max-w-[1071px] pt-[50px] px-[25px]  linier-gradient-left-to-right   mx-auto rounded-[20px]">
+      <div className="max-w-[1071px]  relative  pt-[50px] px-[25px]  linier-gradient-left-to-right   mx-auto rounded-[20px]">
         <h1 className="text-3xl font-bold text-center text-[#F7F9FB]">
           Success stories from the Funnel Vision community
         </h1>
-        <div className="flex flex-wrap pt-[50px] gap-x-[33px] gap-y-[20px]">
-        {data.map((item, i) => (
-          <div key={i} className="md:w-[494px] rounded-[20px] custom-card-inner-shadow py-[24px] px-[20px] flex gap-x-[16px]">
-            <div>{item.icon}</div>
-            <div>
-              <h2 className="text-[20px] font-semibold font-roboto">
-                {item.title}
-              </h2>
-              <p className="text-[14px] pt-[6px] font-semibold font-opensans">{item.desc}</p>
+        <div className="flex relative  flex-wrap pt-[50px] gap-x-[33px] gap-y-[20px]">
+          {data.map((item, i) => (
+            <div
+              key={i}
+              className="md:w-[494px] rounded-[20px] custom-card-inner-shadow py-[24px] px-[20px] flex gap-x-[16px]"
+            >
+              <div>{item.icon}</div>
+              <div>
+                <h2 className="text-[20px] font-semibold font-roboto">
+                  {item.title}
+                </h2>
+                <p className="text-[14px] pt-[6px] font-semibold font-opensans">
+                  {item.desc}
+                </p>
+              </div>
             </div>
+          ))}
+        </div>
+
+        <div className="relative">
+          <div className="w-[493px] rounded-[20px] mx-auto mt-[39px] py-[40px] pl-[30px] pr-[20px] custom-card-inner-shadow   ">
+            <h3 className="text-[60px]  font-roboto text-center font-bold leading-[80px] bg-clip-text text-transparent  bg-gradient-to-b from-[#0052CC] to-[#001B2E]">
+              Coming Soon
+            </h3>
+            <p className="text-center pt-[21px] text-[14px] font-semibold font-opensans text-white opacity-80">
+              We're just getting started. Early birds who join during our beta
+              launch will get exclusive access to upcoming features at no extra
+              cost. Imagine having:
+            </p>
+            <ul className="pt-[40px] space-y-[4px]">
+              <li className="flex items-center gap-x-[10px] ">
+                <GreenDot />
+                <p className="text-[14px] leading-[26px] font-semibold font-opensans">
+                  AI-crafted email sequences that nurture your list on autopilot
+                </p>
+              </li>
+              <li className="flex items-center gap-x-[10px] ">
+                <GreenDot />
+                <p className="text-[14px] leading-[26px] font-semibold font-opensans">
+                  Ad copy that aligns perfectly with your funnel
+                </p>
+              </li>
+              <li className="flex items-center gap-x-[10px] ">
+                <GreenDot />
+                <p className="text-[14px] leading-[26px] font-semibold font-opensans">
+                  Video script generation for your sales videos and content
+                </p>
+              </li>
+              <li className="flex items-center gap-x-[10px] ">
+                <GreenDot />
+                <p className="text-[14px] leading-[26px] font-semibold font-opensans">
+                  Webinar funnel creation to showcase your expertise
+                </p>
+              </li>
+            </ul>
+            <p className="text-[14px] leading-[26px] font-semibold font-opensans pl-4">
+              ...and much more. The future of funnel building is here, <br />{" "}
+              and it's evolving fast!"
+            </p>
           </div>
-        ))}
+
+          {/* Left Side Graphics */}
+
+          <div className="absolute rotate-180 left-10 top-4">
+            <Graphic />
+          </div>
+          <div className="absolute left-10 bottom-36">
+            <Dots />
+          </div>
+          {/* Right Side Graphics */}
+
+          <div className="absolute right-10 top-4">
+            <Graphic />
+          </div>
+          <div className="absolute right-10 bottom-36">
+            <Dots />
+          </div>
+        </div>
       </div>
-      </div>
-   
     </div>
   );
 };

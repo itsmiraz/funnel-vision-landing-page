@@ -28,7 +28,7 @@ const TailoredSolutions = () => {
       </h2>
       <div className="pt-[50px] gap-[45px] flex justify-center items-center">
         {TailoredSolutionsData.map((item, i) => (
-          <div className="flex px-[40px]  w-[324px] h-[376px] rounded-[20px] custom-card-inner-shadow   bg-[#001B2E]/60 justify-center items-center flex-col" key={i}>
+          <div className="flex px-[40px]  w-[324px] h-[376px] rounded-[20px] custom-card-inner-shadow    bg-[#001B2E]/60 justify-center items-center flex-col" key={i}>
             <div>{item.icon}</div>
             <h3 className="text-xl text-center pt-[38px] pb-[12px] font-roboto font-bold text-[#F7F9FB] leading-[30px]">
               {item.title}
