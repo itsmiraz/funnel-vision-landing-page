@@ -18,7 +18,7 @@ const Hero = () => {
       className="pt-[34px] pb-[142px]"
     >
       {/* Header */}
-      <div className="flex pb-[120px] justify-between items-center max-w-[1301px] mx-auto">
+      <div className="flex px-10 pb-[120px] justify-between items-center max-w-[1301px] mx-auto">
         <Image
           src={Logo}
           className="w-[120px]"
