@@ -2,7 +2,15 @@
 import Image, { StaticImageData } from "next/image";
 import { useEffect, useRef } from "react";
 import Company from "@/assets/images/successStories/company1.png";
+import Company2 from "@/assets/images/successStories/company2.png";
+import Company3 from "@/assets/images/successStories/company3.png";
 import Profile from "@/assets/images/successStories/image1.png";
+import Profile2 from "@/assets/images/successStories/profile2.png";
+import Profile3 from "@/assets/images/successStories/profile3.png";
+import Profile4 from "@/assets/images/successStories/profile-4.png";
+import Profile5 from "@/assets/images/successStories/profile5.png";
+
+
 interface SuccessStory {
   profile: StaticImageData; // Assuming you're using static image imports from `next/image`
   company: StaticImageData;
@@ -25,7 +33,23 @@ const SuccessStories = () => {
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ",
     },
     {
-      profile: Company,
+      profile: Profile2,
+      company: Company2,
+      name: "Amir Hamza",
+      title: "Business Owner",
+      review:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ",
+    },
+    {
+      profile: Profile3,
+      company: Company3,
+      name: "Adam Morisckao",
+      title: "Business Owner",
+      review:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ",
+    },
+    {
+      profile: Profile4,
       company: Profile,
       name: "Amir Hamza",
       title: "Business Owner",
@@ -33,9 +57,9 @@ const SuccessStories = () => {
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ",
     },
     {
-      profile: Company,
+      profile: Profile5,
       company: Profile,
-      name: "Amir Hamza",
+      name: "Leo Costa",
       title: "Business Owner",
       review:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ",

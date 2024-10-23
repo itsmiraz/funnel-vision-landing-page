@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 const Footer = () => {
   return (
-    <div className='pb-[50px] px-10'>
+    <div className='pb-[50px] px-20'>
 
     <div className='flex  md:flex-row gap-y-[30px] flex-col-reverse justify-between items-center'>
       <Image className='md:block hidden' src={Logo} alt='logo
