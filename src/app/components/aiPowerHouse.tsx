@@ -8,6 +8,10 @@ import FunnelSetup from "@/assets/icons/funnelSetup.svg";
 import GreenDot from "@/assets/icons/greenDot.svg";
 import Graphic from "@/assets/icons/graphic.svg";
 import Dots from "@/assets/icons/dots.svg";
+import Image from "next/image";
+
+import GlowingBubble from '@/assets/images/glowingBuble.png'
+
 const AiPowerHouse = () => {
   const data = [
     {
@@ -68,7 +72,8 @@ const AiPowerHouse = () => {
         </div>
 
         <div className="relative">
-          <div className="w-[493px] rounded-[20px] mx-auto mt-[39px] py-[40px] pl-[30px] pr-[20px] custom-card-inner-shadow   ">
+         <div className="p-[20px] relative mt-[39px] h-fit w-fit mx-auto  rounded-[20px] overflow-hidden">
+         <div className="w-[493px] z-30 relative bg-[#001B2E99] rounded-[20px] mx-auto  py-[40px] pl-[30px] pr-[20px] custom-card-inner-shadow   ">
             <h3 className="text-[60px]  font-roboto text-center font-bold leading-[80px] bg-clip-text text-transparent  bg-gradient-to-b from-[#0052CC] to-[#001B2E]">
               Coming Soon
             </h3>
@@ -108,10 +113,16 @@ const AiPowerHouse = () => {
               and it's evolving fast!"
             </p>
           </div>
+          <Image
+      className="absolute w-[428px] rotate-180 top-[-100px] left-[-200px] animate-ai-power-gradient-animation "
+      src={GlowingBubble}
+      alt=""
+    />
+         </div>
 
           {/* Left Side Graphics */}
 
-          <div className="absolute rotate-180 left-10 top-4">
+          <div className="absolute rotate-180 left-10 top-20">
             <Graphic />
           </div>
           <div className="absolute left-10 bottom-36">
@@ -119,7 +130,7 @@ const AiPowerHouse = () => {
           </div>
           {/* Right Side Graphics */}
 
-          <div className="absolute right-10 top-4">
+          <div className="absolute right-10 top-20">
             <Graphic />
           </div>
           <div className="absolute right-10 bottom-36">

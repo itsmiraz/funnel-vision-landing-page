@@ -152,3 +152,27 @@ body {
 .animate-funnel-card-gradient-animation {
   animation: bubble-move-diagonal 15s linear infinite;
 }
+
+
+
+/* ai power house */
+@keyframes bubble-move-diagonal-ai-power-house {
+  0% {
+    transform: translate(0, 0) rotate(0deg) ; /* Start at the top-left */
+  }
+  25% {
+    transform: translate(100%, 0); /* Move to the top-right */
+  }
+  50% {
+    transform: translate(100%, 100%)  rotate(90deg); /* Move to the bottom-right */
+  }
+  75% {
+    transform: translate(0, 110%)  rotate(180deg);/* Move to the bottom-left */
+  }
+  100% {
+    transform: translate(0, 0) ; /* Complete the loop back to the start */
+  }
+}
+.animate-ai-power-gradient-animation {
+  animation: bubble-move-diagonal-ai-power-house 20s linear infinite;
+}
