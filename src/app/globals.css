@@ -29,13 +29,24 @@
     --foreground: #ededed;
   }
 }
-
-.linier-gradient-left-to-right{
+/* styles.css or globals.css */
+.linier-gradient-left-to-right {
   background: linear-gradient(126.27deg, #0052CC -281.63%, #001B2E 42.23%);
-
 }
+
 .linier-gradient-right-to-left {
   background: linear-gradient(200deg, #0052CC -281.63%, #001B2E 42.23%);
+}
+
+/* Hide gradients on mobile devices */
+@media (max-width: 767px) { /* Adjust the breakpoint as needed */
+  .linier-gradient-left-to-right {
+    background: none; /* Remove the background gradient */
+  }
+
+  .linier-gradient-right-to-left {
+    background: none; /* Remove the background gradient */
+  }
 }
 
 .custom-card-inner-shadow {
@@ -100,7 +111,7 @@ body {
     transform: translate(0, 0);
   }
   50% {
-    transform: translate(1000px, 0); /* Moves from left to right */
+    transform: translate(100%, 0); /* Moves from left to right */
   }
   100% {
     transform: translate(0, 0);
@@ -113,7 +124,7 @@ body {
     transform: translate(0, 0);
   }
   50% {
-    transform: translate(-1000px, 0); /* Moves from right to left */
+    transform: translate(-100%, 0); /* Moves from right to left */
   }
   100% {
     transform: translate(0, 0);

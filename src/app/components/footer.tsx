@@ -9,8 +9,8 @@ const Footer = () => {
   return (
     <div className='pb-[50px] px-10'>
 
-    <div className='flex justify-between items-center'>
-      <Image src={Logo} alt='logo
+    <div className='flex  md:flex-row gap-y-[30px] flex-col-reverse justify-between items-center'>
+      <Image className='md:block hidden' src={Logo} alt='logo
       '/>
       <p className='text-[14px] font-semibold font-opensans opacity-60'>
       Copyright@Funnel Vision-2024

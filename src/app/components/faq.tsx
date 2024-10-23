@@ -25,7 +25,7 @@ const Faq = () => {
   ]
 
   return (
-    <div className="pb-[140px]">
+    <div className="pb-[140px] px-[16px]">
       <h1 className="text-3xl font-bold text-center text-[#F7F9FB]">
         Common questions about Funnel Vision
       </h1>

@@ -42,7 +42,7 @@ const ChooseFunnel = () => {
       <h1 className="text-3xl font-bold text-center text-[#F7F9FB]">
         Choose your path to Funnel success
       </h1>
-      <div className="mt-[50px]  flex justify-center items-center gap-[25px]">
+      <div className="mt-[50px]  flex md:flex-row flex-col justify-center items-center gap-[25px]">
         {planData.map((item, i) => (
           <div
             key={i}

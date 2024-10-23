@@ -19,11 +19,11 @@ export default function Home() {
       <FunnelSteps />
       <AiPowerHouse />
       <TailoredSolutions />
-      <SuccessStories />
-      <ChooseFunnel />
-      <Faq />
-      <CTA />
-      <Footer />
+     <SuccessStories />
+        <ChooseFunnel />
+     <Faq />
+     <CTA />
+     <Footer /> 
     </div>
   );
 }

@@ -26,7 +26,7 @@ const TailoredSolutions = () => {
       <h2 className="text-center text-[36px] font-bold font-roboto leading-[50px] text-[#F7F9FB] ">
         Tailored solutions for every online entrepreneur
       </h2>
-      <div className="pt-[50px] gap-[45px] flex justify-center items-center">
+      <div className="pt-[50px] gap-[45px] flex md:flex-row flex-col justify-center items-center">
         {TailoredSolutionsData.map((item, i) => (
           <div className="flex px-[40px]  w-[324px] h-[376px] rounded-[20px] custom-card-inner-shadow    bg-[#001B2E]/60 justify-center items-center flex-col" key={i}>
             <div>{item.icon}</div>
