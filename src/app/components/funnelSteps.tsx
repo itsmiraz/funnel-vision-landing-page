@@ -25,8 +25,8 @@ const FunnelSteps = () => {
               Share your niche
             </h3>
             <p className="font-semibold text-[16px] pt-[16px] font-opensans  ">
-              Tell us what you know best - your  affiliate niche, your
-              content sweet  spot, or your entrepreneurial vision.
+              Tell us what you know best - your affiliate niche, your content
+              sweet spot, or your entrepreneurial vision.
             </p>
           </div>
         </div>
@@ -45,17 +45,15 @@ const FunnelSteps = () => {
           </div>
           <Image
             src={Step2}
-            className="md:-translate-x-10"
+            className="md:-translate-x-10 w-[273px] h-[123px]"
             alt="steps"
-            width={263}
-            height={123}
           />
         </div>
         {/* Step 3 */}
         <div
           className={`flex  md:flex-row flex-col pb-[60px] justify-center gap-x-[49px]`}
         >
-          <Image src={Step3} alt="steps" width={263} height={123} />
+          <Image src={Step3} className="w-[273px] h-[123px]" alt="steps" />
           <div>
             <h3 className="text-[#F7F9FB] font-roboto whitespace-nowrap font-bold text-[26px] leading-[40px]">
               Craft your perfect offer
@@ -81,17 +79,15 @@ const FunnelSteps = () => {
           </div>
           <Image
             src={Step4}
-            className="md:-translate-x-10"
+            className="md:-translate-x-10 w-[273px] h-[123px]"
             alt="steps"
-            width={263}
-            height={123}
           />
         </div>
         {/* Step 5 */}
         <div
           className={`flex  md:flex-row flex-col pb-[60px] justify-center gap-x-[49px]`}
         >
-          <Image src={Step5} alt="steps" width={263} height={123} />
+          <Image src={Step5} alt="steps" className="w-[273px] h-[123px]" />
           <div>
             <h3 className="text-[#F7F9FB] font-roboto whitespace-nowrap font-bold text-[26px] leading-[40px]">
               Build your product suite
@@ -117,17 +113,15 @@ const FunnelSteps = () => {
           </div>
           <Image
             src={Step6}
-            className="md:-translate-x-10"
+            className="md:-translate-x-10 w-[273px] h-[123px]"
             alt="steps"
-            width={263}
-            height={123}
           />
         </div>
         {/* Step 7 */}
         <div
           className={`flex  md:flex-row flex-col md:translate-x-10 pb-[60px] justify-center gap-x-[49px]`}
         >
-          <Image src={Step7} alt="steps" width={263} height={123} />
+          <Image src={Step7} alt="steps" className="w-[273px] h-[123px]" />
           <div>
             <h3 className="text-[#F7F9FB] font-roboto font-bold text-[26px] leading-[40px]">
               Launch profit-generating funnel
@@ -140,8 +134,8 @@ const FunnelSteps = () => {
       </div>
       <p className="text-[16px] font-opensans text-center md:pt-10 font-semibold">
         It's that straightforward. Funnel Vision handles the complex stuff, so
-        you <br className="md:block hidden" /> can focus on scaling your business and connecting with your
-        audience.
+        you <br className="md:block hidden" /> can focus on scaling your
+        business and connecting with your audience.
       </p>
     </div>
   );
