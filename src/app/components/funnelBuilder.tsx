@@ -31,10 +31,10 @@ const FunnelBuilder = () => {
           </p>
         </div>
       </div>
-      <div className="absolute left-1/4   md:block hidden -translate-x-64 bottom-64 ">
+      <div className="absolute left-1/4   md:block hidden -translate-x-64 bottom-72 ">
         <AnimatedDOt />
       </div>
-      <div className="absolute rotate-180  md:block hidden right-1/4  translate-x-64 top-52 ">
+      <div className="absolute rotate-180  md:block hidden right-1/4  translate-x-64 top-64 ">
         <AnimatedDOt />
       </div>
     </div>

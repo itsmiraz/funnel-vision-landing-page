@@ -8,6 +8,7 @@ import FunnelSetup from "@/assets/icons/funnelSetup.svg";
 import GreenDot from "@/assets/icons/greenDot.svg";
 import Graphic from "@/assets/icons/graphic.svg";
 import Dots from "@/assets/icons/dots.svg";
+import MobileGraphic from "@/assets/icons/mobileGraphic.svg";
 import Image from "next/image";
 
 import GlowingBubble from "@/assets/images/glowingBuble.png";
@@ -70,14 +71,16 @@ const AiPowerHouse = () => {
             </div>
           ))}
         </div>
-        <div className="flex   pt-[11px]  justify-between items-center">
-          <div className="rotate-180 md:hidden block">
-            <Graphic />
+        <div className="md:hidden flex pt-[11px]  justify-between items-center">
+          <div className="rotate-180  ">
+            <MobileGraphic />
           </div>
           <div>
-            <Graphic />
+            <MobileGraphic />
           </div>
         </div>
+
+
         <div className="relative px-[16px] md:px-0 ">
           <div className="p-[13px] md:p-[20px] relative md:mt-[39px] h-fit w-fit mx-auto  rounded-[20px] overflow-hidden">
             <div className="md:w-[493px] z-30 relative bg-[#001B2E99] rounded-[20px] mx-auto  py-[36px] md:py-[40px] pl-[20px] md:pl-[30px] pr-[5px] md:pr-[20px] custom-card-inner-shadow   ">
@@ -129,15 +132,17 @@ const AiPowerHouse = () => {
           </div>
 
           {/* Left Side Graphics */}
-          <div className="absolute rotate-180  md:block hidden  md:left-10 top-20">
+          <div className="absolute rotate-180 md:block hidden md:left-10 top-20">
             <Graphic />
           </div>
           <div className="absolute   md:block hidden left-10 bottom-36">
             <Dots />
           </div>
+
+
           {/* Right Side Graphics */}
 
-          <div className="absolute  md:block hidden  md:right-10 top-20">
+          <div className="absolute   md:block hidden md:right-10 top-20">
             <Graphic />
           </div>
           <div className="absolute  md:block hidden  right-10 bottom-36">

@@ -32,7 +32,7 @@ const Hero = () => {
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
         }}
-        className="pt-[34px] pb-[142px]"
+        className="pt-[34px]"
       >
         {/* Header */}
         <div className="flex px-[20px] z-20  md:px-10 pb-[61px] md:pb-[120px] justify-between items-center max-w-[1301px] mx-auto">
