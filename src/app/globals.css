@@ -128,3 +128,27 @@ body {
 .animate-bubble-bottom {
   animation: bubble-move-bottom 20s linear infinite;
 }
+
+
+/* funnel card glowing gradienet */
+@keyframes bubble-move-diagonal {
+  0% {
+    transform: translate(0, 0) rotate(0deg); /* Start at the top-left, no rotation */
+  }
+  25% {
+    transform: translate(216px, 0) rotate(90deg); /* Move to the top-right, rotate */
+  }
+  50% {
+    transform: translate(216px, 366px) rotate(180deg); /* Move to the bottom-right, rotate */
+  }
+  75% {
+    transform: translate(0, 346px) rotate(270deg); /* Move to the bottom-left, rotate */
+  }
+  100% {
+    transform: translate(0, 0) rotate(0); /* Complete the loop, rotate */
+  }
+}
+
+.animate-funnel-card-gradient-animation {
+  animation: bubble-move-diagonal 15s linear infinite;
+}
