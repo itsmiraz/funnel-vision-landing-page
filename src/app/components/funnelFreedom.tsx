@@ -28,7 +28,7 @@ const FunnelFreedom = () => {
           </p>
         </div>
 
-        <Image src={FunnelVisionImage} alt="funnel-vision" className="" />
+        <Image src={FunnelVisionImage} alt="funnel-vision" className="w-full md:max-w-[505px]" />
       </div>
       <div className="absolute left-1/4  md:block hidden  -translate-x-64 bottom-36 ">
         <AnimatedDOt />

@@ -7,7 +7,7 @@ const FunnelBuilder = () => {
   return (
     <div className="pb-[60px] md:py-[140px] px-[20px] relative">
       <div className="max-w-[1062px] gap-y-[80px] gap-x-[66px]  flex    md:flex-row flex-col justify-between items-center py-[46px] linier-gradient-right-to-left  mx-auto rounded-[20px]">
-        <Image src={FunnelBuilderImage} alt="funnel-vision" className="" />
+        <Image src={FunnelBuilderImage} alt="funnel-vision" className=" w-full  md:max-w-[540px]" />
         <div className="md:pr-[103px]">
           <h2 className="text-[#F7F9FB] text-center md:text-start font-roboto text-[36px] leading-[50px] font-bold">
             Meet your AI <br className="md:block hidden" />
