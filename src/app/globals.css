@@ -38,7 +38,7 @@
   background: linear-gradient(200deg, #0052CC -281.63%, #001B2E 42.23%);
 }
 
-.tailored-solutions-card-shadow {
+.custom-card-inner-shadow {
   backdrop-filter: blur(54px);
 
   box-shadow: 0px 0px 14px 0px rgba(247, 249, 251, 0.1) inset;

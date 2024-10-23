@@ -95,7 +95,7 @@ const SuccessStories = () => {
           >
             {doubledData.map((item, i) => (
               <div
-                className="rounded-[20px] tailored-solutions-card-shadow w-[409px] min-w-[409px] py-[31px] px-[20px] bg-[#001B2E99] shadow-lg"
+                className="rounded-[20px] custom-card-inner-shadow  w-[409px] min-w-[409px] py-[31px] px-[20px] bg-[#001B2E99] shadow-lg"
                 key={i}
               >
                 <div className="flex items-start justify-between">
@@ -130,7 +130,7 @@ const SuccessStories = () => {
           >
             {doubledData.map((item, i) => (
               <div
-                className="rounded-[20px] tailored-solutions-card-shadow w-[409px] min-w-[409px] py-[31px] px-[20px] bg-[#001B2E99] shadow-lg"
+                className="rounded-[20px] custom-card-inner-shadow  w-[409px] min-w-[409px] py-[31px] px-[20px] bg-[#001B2E99] shadow-lg"
                 key={i}
               >
                 <div className="flex items-start justify-between">

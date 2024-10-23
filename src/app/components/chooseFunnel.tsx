@@ -44,7 +44,7 @@ const ChooseFunnel = () => {
       <div className="mt-[50px]  flex justify-center items-center gap-[25px]">
         {planData.map((item, i) => (
           <div
-            className="bg-[#001B2E99] pl-[30px] pr-[20px] w-[246px] py-[30px] flex flex-col justify-center items-center rounded-[20px] tailored-solutions-card-shadow"
+            className="bg-[#001B2E99] pl-[30px] pr-[20px] w-[246px] py-[30px] flex flex-col justify-center items-center rounded-[20px] custom-card-inner-shadow "
             key={i}
           >
             <div className="">

@@ -58,7 +58,7 @@ const Accordion = ({ data, }: AccordionProps) => {
   };
   return (
     <div
-      className={`pt-6 px-[30px] py-[25px]  rounded-[20px]  tailored-solutions-card-shadow pb-6 select-none`}
+      className={`pt-6 px-[30px] py-[25px]  rounded-[20px] custom-card-inner-shadow  pb-6 select-none`}
     >
       <button
         className="w-full select-none text-[#F7F9FB] font-medium text-[18px] font-roboto gap-x-6 text-left flex  justify-between items-center "
