@@ -112,7 +112,7 @@ const ChooseFunnel = () => {
 
               <button
                 className={`${
-                  item.active ? "bg-[#FF6B35]" : "bg-[#001B2E99] text-[#FF6B35]"
+                  item.active ? "bg-[#FF6B35] ease-in-out duration-300 text-white hover:bg-[#001B2E99] hover:text-[#FF6B35]" : "bg-[#001B2E99] text-[#FF6B35]"
                 } text-[14px] ${!item.active && 'hover:bg-[#FF6B35] hover:text-white ease-in-out duration-300' } hover:-translate-y-1 border border-[#F7F9FB]/10 flex mt-[34px] font-mont font-bold w-fit mx-auto pl-3 justify-center gap-x-[11px] items-center p-1 rounded-[10px] `}
               >
                 <p>Get Started</p>

@@ -1,3 +1,4 @@
+'use client'
 import EntrepreneursIcon from "@/assets/icons/aspiringEnterpreneurs.svg";
 import AffiliateIcon from "@/assets/icons/affiliate.svg";
 import ContentCreator from "@/assets/icons/contentCreator.svg";
@@ -30,13 +31,27 @@ const TailoredSolutions = () => {
         {TailoredSolutionsData.map((item, i) => (
           <div
             key={i}
-            className="hover:-translate-y-2 cursor-pointer hover:shadow-lg transition-all ease-in-out duration-300"
+            className="hover:-translate-y-2 cursor-pointer transform transition-all ease-in-out duration-300"
+            style={{
+              borderRadius:"20px",
+              transition: "box-shadow 0.5s ease-in-out", // Smooth transition for the shadow
+            }}
           >
+            <style jsx>{`
+              div:hover {
+                box-shadow: 0 4px 15px rgba(255, 0, 150, 0.3), 0 4px 30px rgba(0, 255, 255, 0.4);
+              }
+            `}</style>
+
             <div
-              className="flex px-[40px]  md:w-[324px] h-[376px] rounded-[20px] custom-card-inner-shadow    bg-[#001B2E]/60 justify-center items-center flex-col"
+              className="flex px-[40px] shadow-none md:w-[324px] h-[376px] rounded-[20px] custom-card-inner-shadow    bg-[#001B2E]/60 justify-center items-center flex-col"
               key={i}
             >
-              <div>{item.icon}</div>
+              <div 
+              style={{
+                boxShadow:'none'
+              }}
+              className="drop-shadow-none shadow-none">{item.icon}</div>
               <h3 className="text-xl text-center pt-[38px] pb-[12px] font-roboto font-bold text-[#F7F9FB] leading-[30px]">
                 {item.title}
               </h3>
