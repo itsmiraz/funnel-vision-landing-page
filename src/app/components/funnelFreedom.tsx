@@ -3,12 +3,12 @@
 // import FunnelVisionImage from "@/assets/images/funnelVision.webp";
 import Image from "next/image";
 import AnimatedDOt from "@/assets/icons/animatedDot.svg";
-import BackgroundGradient from "@/assets/images/funnelBuilder/backgroundGradeint.png";
-import TechMaze from "@/assets/images/funnelBuilder/techmaze.png";
-import WritersBlock from "@/assets/images/funnelBuilder/writersblock.png";
-import ProductChaos from "@/assets/images/funnelBuilder/productchaos.png";
-import TimeCrunch from "@/assets/images/funnelBuilder/timecrunch.png";
-import MainCover from "@/assets/images/funnelBuilder/mainBg.png";
+import BackgroundGradient from "@/assets/images/funnelFreedom/backgroundGradeint.png";
+import TechMaze from "@/assets/images/funnelFreedom/techmaze.png";
+import WritersBlock from "@/assets/images/funnelFreedom/writersblock.png";
+import ProductChaos from "@/assets/images/funnelFreedom/productchaos.png";
+import TimeCrunch from "@/assets/images/funnelFreedom/timecrunch.png";
+import MainCover from "@/assets/images/funnelFreedom/mainBg.png";
 
 const FunnelFreedom = () => {
   return (
