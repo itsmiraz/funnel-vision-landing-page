@@ -4,10 +4,10 @@
 import Image from "next/image";
 import AnimatedDOt from "@/assets/icons/animatedDot.svg";
 import BackgroundGradient from "@/assets/images/funnelFreedom/backgroundGradeint.png";
-import TechMaze from "@/assets/images/funnelFreedom/techmaze.png";
-import WritersBlock from "@/assets/images/funnelFreedom/writersblock.png";
-import ProductChaos from "@/assets/images/funnelFreedom/productchaos.png";
-import TimeCrunch from "@/assets/images/funnelFreedom/timecrunch.png";
+import TechMaze from "@/assets/images/funnelFreedom/techMaze.png";
+import WritersBlock from "@/assets/images/funnelFreedom/writersBlock.png";
+import ProductChaos from "@/assets/images/funnelFreedom/productChaos.png";
+import TimeCrunch from "@/assets/images/funnelFreedom/timeCrunch.png";
 import MainCover from "@/assets/images/funnelFreedom/mainBg.png";
 
 const FunnelFreedom = () => {
