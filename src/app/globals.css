@@ -8,8 +8,8 @@
 
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #001B2E;
+  --foreground: #ededed;
 }
 /* styles/globals.css */
 .font-mont {
@@ -23,12 +23,7 @@
 .font-roboto {
   font-family: 'Roboto', sans-serif !important;
 }
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #001B2E;
-    --foreground: #ededed;
-  }
-}
+
 /* styles.css or globals.css */
 .linier-gradient-left-to-right {
   background: linear-gradient(126.27deg, #0052CC -281.63%, #001B2E 42.23%);
