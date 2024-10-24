@@ -1,45 +1,46 @@
-"use client"
+"use client";
 
 import React, { useState } from "react";
-import DotArrowDown  from '@/assets/icons/dotArrowDown.svg'
+import DotArrowDown from "@/assets/icons/dotArrowDown.svg";
 const Faq = () => {
-
-
   const faqQuestions = [
     {
-      title:"Do I need to be a tech wizard to use Funnel Vision?",
-      content:"Unlike traditional funnel builders, Funnel Vision doesn't just give you the tools - it does the work for you. Our AI creates your products, writes your copy, and designs your funnel, all based on your unique niche and audience."
+      title: "Do I need to be a tech wizard to use Funnel Vision?",
+      content:
+        "Unlike traditional funnel builders, Funnel Vision doesn't just give you the tools - it does the work for you. Our AI creates your products, writes your copy, and designs your funnel, all based on your unique niche and audience.",
     },
     {
-      title:"How does Funnel Vision differ from other funnel builders?",
-      content:"Unlike traditional funnel builders, Funnel Vision doesn't just give you the tools - it does the work for you. Our AI creates your products, writes your copy, and designs your funnel, all based on your unique niche and audience."
+      title: "How does Funnel Vision differ from other funnel builders?",
+      content:
+        "Unlike traditional funnel builders, Funnel Vision doesn't just give you the tools - it does the work for you. Our AI creates your products, writes your copy, and designs your funnel, all based on your unique niche and audience.",
     },
     {
-      title:"Can I really create a full, converting funnel in 20 minutes?",
-      content:"Unlike traditional funnel builders, Funnel Vision doesn't just give you the tools - it does the work for you. Our AI creates your products, writes your copy, and designs your funnel, all based on your unique niche and audience."
+      title: "Can I really create a full, converting funnel in 20 minutes?",
+      content:
+        "Unlike traditional funnel builders, Funnel Vision doesn't just give you the tools - it does the work for you. Our AI creates your products, writes your copy, and designs your funnel, all based on your unique niche and audience.",
     },
     {
-      title:"How customizable are the funnels and products?",
-      content:"Unlike traditional funnel builders, Funnel Vision doesn't just give you the tools - it does the work for you. Our AI creates your products, writes your copy, and designs your funnel, all based on your unique niche and audience."
+      title: "How customizable are the funnels and products?",
+      content:
+        "Unlike traditional funnel builders, Funnel Vision doesn't just give you the tools - it does the work for you. Our AI creates your products, writes your copy, and designs your funnel, all based on your unique niche and audience.",
     },
-  ]
+  ];
 
   return (
     <div className="pb-[140px] px-[16px]">
       <h1 className="text-3xl font-bold text-center text-[#F7F9FB]">
         Common questions about Funnel Vision
       </h1>
-      <div className="pt-[50px] space-y-[20px] max-w-[600px] mx-auto" >
-{
-  faqQuestions.map((item,i)=><Accordion data={item} i={i} key={i} length={faqQuestions.length}/>)
-}
+      <div className="pt-[50px] space-y-[20px] max-w-[600px] mx-auto">
+        {faqQuestions.map((item, i) => (
+          <Accordion data={item} i={i} key={i} length={faqQuestions.length} />
+        ))}
       </div>
     </div>
   );
 };
 
 export default Faq;
-
 
 export type AccordionProps = {
   length: number;
@@ -49,7 +50,7 @@ export type AccordionProps = {
     content: string;
   };
 };
-const Accordion = ({ data, }: AccordionProps) => {
+const Accordion = ({ data }: AccordionProps) => {
   const { title, content } = data;
   const [isOpen, setIsOpen] = useState(false);
 
@@ -65,13 +66,17 @@ const Accordion = ({ data, }: AccordionProps) => {
         onClick={toggleAccordion}
       >
         {title}
-        <div className={`${isOpen ? "rotate-180":'rotate-0'}  duration-300 transition-all `}>
-         <DotArrowDown/>
+        <div
+          className={`${
+            isOpen ? "rotate-180" : "rotate-0"
+          }  duration-300 transition-all `}
+        >
+          <DotArrowDown />
         </div>
       </button>
 
       <div
-        className={`overflow-hidden duration-300 transition-all transition-max-height ${
+        className={`overflow-hidden duration-700 transition-all transition-max-height ${
           isOpen ? "max-h-96" : "max-h-0"
         }`}
       >
@@ -82,4 +87,3 @@ const Accordion = ({ data, }: AccordionProps) => {
     </div>
   );
 };
-

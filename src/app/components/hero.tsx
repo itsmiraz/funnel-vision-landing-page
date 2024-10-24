@@ -4,10 +4,11 @@ import Background from "@/assets/images/HeaderBg.webp";
 import MobileBackground from "@/assets/images/mobile-bg.webp";
 import Logo from "@/assets/images/logo.png";
 import Image from "next/image";
-import LeftArrowIcon from "@/assets/icons/LeftArrowIcon.svg";
+// import LeftArrowIcon from "@/assets/icons/LeftArrowIcon.svg";
 import PeopleImage from "@/assets/images/People.webp";
 import AppImage from "@/assets/images/App Screen .webp";
 import { useEffect, useState } from "react";
+import CustomButton from "./customButton";
 const Hero = () => {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -38,11 +39,11 @@ const Hero = () => {
         <div className="flex px-[20px] z-20  md:px-10 pb-[61px] md:pb-[120px] justify-between items-center max-w-[1301px] mx-auto">
           <Image
             src={Logo}
-            className="w-[120px]"
+            className="w-[120px] md:w-[140px]"
            
             alt="logo"
           />
-          <button className="bg-[#001B2E]  font-mont font-bold text-[16px] md:text-[24px] text-[#FF6B35] backdrop-blur-sm border-[2px] px-[19px] py-[6px]  border-[#0052CC]/40 md:border-[#0052CC66] rounded-[10px]">
+          <button className="bg-[#001B2E]  font-mont font-bold text-[16px] md:text-[20px] text-[#FF6B35] backdrop-blur-sm border-[2px] px-[19px] py-[6px]  border-[#0052CC]/40 md:border-[#0052CC66] rounded-[10px]">
             Sign Up
           </button>
         </div>
@@ -59,10 +60,14 @@ const Hero = () => {
             your expertise into high-converting digital products - even if
             you're just starting out.
           </p>
-          <button className="flex text-[14px] font-mont font-bold w-fit mx-auto pl-3 justify-center gap-x-[11px] items-center p-1 rounded-[10px] bg-[#FF6B35]">
-            <p> Join the beta launch</p>
+          {/* <button className="flex text-[14px] font-mont font-bold w-fit mx-auto pl-3 justify-center gap-x-[11px] items-center p-1 rounded-[10px] bg-[#FF6B35]">
+            <p> </p>
             <LeftArrowIcon />
-          </button>
+            
+          </button> */}
+    <div className="hover:-translate-y-2 ease-in-out duration-300 transition-all">
+    <CustomButton title="Join the beta launch" size="large"/>
+    </div>
           <div className="flex-col flex justify-center items-center gap-[11px] pt-[54px]">
             <p className="text-[14px] font-opensans font-semibold">
               Trusted by over{" "}

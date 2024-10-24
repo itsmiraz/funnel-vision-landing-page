@@ -1,6 +1,6 @@
 import React from "react";
 import BlueCheck from "@/assets/icons/BlueCheck.svg";
-import LeftArrowIcon from "@/assets/icons/SmallLeftArrow.svg";
+import SmallLeftArrowIcon from "@/assets/icons/SmallLeftArrow.svg";
 import OrangeFillLeftArrow from "@/assets/icons/OrangeFillLeftArrow.svg";
 import Image from "next/image";
 import GradientBubble from "@/assets/images/smallBubble.png";
@@ -102,14 +102,21 @@ const ChooseFunnel = () => {
                   <p> Lorem Ipsum is simply </p>
                 </li>
               </ul>
+              {/* <div className=" mt-[34px]">
+                <CustomButton
+                  title=" Get Started"
+                  size="small"
+                  active={item.active}
+                />
+              </div> */}
 
               <button
                 className={`${
                   item.active ? "bg-[#FF6B35]" : "bg-[#001B2E99] text-[#FF6B35]"
-                } text-[14px] border border-[#F7F9FB]/10 flex mt-[34px] font-mont font-bold w-fit mx-auto pl-3 justify-center gap-x-[11px] items-center p-1 rounded-[10px] `}
+                } text-[14px] ${!item.active && 'hover:bg-[#FF6B35] hover:text-white ease-in-out duration-300' } hover:-translate-y-1 border border-[#F7F9FB]/10 flex mt-[34px] font-mont font-bold w-fit mx-auto pl-3 justify-center gap-x-[11px] items-center p-1 rounded-[10px] `}
               >
-                <p> Get Started</p>
-                {item.active ? <LeftArrowIcon /> : <OrangeFillLeftArrow />}
+                <p>Get Started</p>
+                {item.active ? <SmallLeftArrowIcon /> : <OrangeFillLeftArrow />}
               </button>
             </div>
 

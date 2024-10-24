@@ -1,8 +1,8 @@
 import React from "react";
-import LeftArrowIcon from "@/assets/icons/SmallLeftArrow.svg";
 import Background from "@/assets/images/ctaBackground.png";
 import GlowingBubble from '@/assets/images/glowingBuble.png'
 import Image from "next/image";
+import CustomButton from "./customButton";
 
 
 const CTA = () => {
@@ -27,12 +27,10 @@ const CTA = () => {
           features at no extra cost. Your digital <br className="md:block hidden" /> success story starts
           here!
         </p>
-        <button
-          className={` bg-[#FF6B35] text-[14px] border border-[#F7F9FB]/10 flex font-mont font-bold  mx-auto pl-3 justify-center gap-x-[11px] items-center p-1 rounded-[10px] `}
-        >
-          <p> Get Started</p>
-          <LeftArrowIcon />
-        </button>
+       
+         <div className="hover:-translate-y-1 ease-in-out transition-all duration-300">
+         <CustomButton title="Get Started" size="small"/>
+         </div>
        </div> 
 
          {/* Moving across the top */}

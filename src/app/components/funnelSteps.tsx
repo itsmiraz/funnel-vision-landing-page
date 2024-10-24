@@ -14,7 +14,7 @@ const FunnelSteps = () => {
       <h2 className="text-center font-roboto text-[#F7F9FB] text-[36px] font-bold ">
         7 simple steps to your profit-ready Funnel
       </h2>
-      <div className="max-w-[599px]  px-[26px] mx-auto py-10">
+      <div className="max-w-[649px]  px-[26px] mx-auto py-10">
         {/* Step 1 */}
         <div
           className={`flex md:flex-row flex-col md:items-center pb-[60px] justify-center gap-x-[49px]`}
@@ -25,7 +25,7 @@ const FunnelSteps = () => {
               Share your niche
             </h3>
             <p className="font-semibold text-[16px] pt-[16px] font-opensans  ">
-              Tell us what you know best - your affiliate niche, your content
+              Tell us what you know best - your affiliate niche, your   content
               sweet spot, or your entrepreneurial vision.
             </p>
           </div>

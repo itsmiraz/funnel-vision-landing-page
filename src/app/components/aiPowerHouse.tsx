@@ -51,13 +51,13 @@ const AiPowerHouse = () => {
     <div className="pt-[60px] md:pt-[140px]">
       <div className="max-w-[1071px]  relative  pt-[50px]  md:px-[25px]  linier-gradient-left-to-right-always   mx-auto rounded-[20px]">
         <h1 className="text-3xl px-[16px] md:px-0 font-bold text-center text-[#F7F9FB]">
-          Success stories from the Funnel Vision community
+        Powerful AI tools at your fingertips
         </h1>
         <div className="flex relative   px-[16px] md:px-0 flex-wrap pt-[50px] gap-x-[33px] gap-y-[20px]">
           {data.map((item, i) => (
             <div
               key={i}
-              className="md:w-[494px] w-full  rounded-[20px] custom-card-inner-shadow py-[24px] px-[20px] flex gap-x-[16px]"
+              className="md:w-[494px] w-full  hover:-translate-y-1 transition-all duration-300 ease-in-out cursor-pointer rounded-[20px] custom-card-inner-shadow py-[24px] px-[20px] flex gap-x-[16px]"
             >
               <div>{item.icon}</div>
               <div>
