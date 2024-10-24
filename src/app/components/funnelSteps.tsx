@@ -17,7 +17,7 @@ const FunnelSteps = () => {
       <div className="max-w-[649px]  px-[26px] mx-auto py-10">
         {/* Step 1 */}
         <div
-          className={`flex md:flex-row flex-col md:items-center pb-[60px] justify-center gap-x-[59px]`}
+          className={`flex md:flex-row flex-col md:items-center pb-[60px] justify-center gap-x-[76px]`}
         >
           <Image src={Step1} alt="steps" className="w-[273px] h-[123px]" />
           <div>
@@ -32,7 +32,7 @@ const FunnelSteps = () => {
         </div>
         {/* Step 2 */}
         <div
-          className={`flex   md:flex-row flex-col-reverse pb-[32px]  justify-center gap-x-[69px]`}
+          className={`flex   md:flex-row flex-col-reverse pb-[32px]  justify-center gap-x-[72px]`}
         >
           <div>
             <h3 className="text-[#F7F9FB] font-roboto whitespace-nowrap font-bold text-[26px] leading-[40px]">
@@ -45,7 +45,7 @@ const FunnelSteps = () => {
           </div>
           <Image
             src={Step2}
-            className="md:-translate-x-10 w-[273px] h-[123px]"
+            className="md:-translate-x-12 w-[273px] h-[123px]"
             alt="steps"
           />
         </div>

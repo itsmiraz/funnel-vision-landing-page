@@ -40,10 +40,10 @@ const FunnelFreedom = () => {
           <div
             style={{
               backgroundImage: `url(${BackgroundGradient.src})`,
-              backgroundSize: "200% 200%", // Double the size for continuous looping
+              backgroundSize: "100% 200%", // Double the size for continuous looping
               backgroundPosition: "100% 100%",
               backgroundRepeat: "no-repeat",
-              animation: "moveBackground 15s linear infinite",
+              animation: "moveBackground 10s linear infinite",
             }}
             className=" w-full rounded-[20px] overflow-hidden relative   p-[26px] md:max-w-[431px]"
           >
@@ -86,7 +86,7 @@ const FunnelFreedom = () => {
       <div className="absolute left-1/4  md:block hidden  -translate-x-64 bottom-48 ">
         <AnimatedDOt />
       </div>
-      <div className="absolute rotate-180  md:block hidden right-1/4  translate-x-64 top-48 ">
+      <div className="absolute rotate-180  md:block hidden right-1/4  translate-x-72 top-48 ">
         <AnimatedDOt />
       </div>
     </div>
