@@ -75,7 +75,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="md:w-[1078px] mx-auto py-[20px] border border-[#0C2638] rounded-[20px] bg-[#001B2E] overflow-hidden  -translate-y-20 ">
+      <div className="md:w-[1078px] px-4 mx-auto py-[20px] border border-[#0C2638] rounded-[20px] bg-[#001B2E] overflow-hidden  -translate-y-20 ">
         <Image
           src={AppImage}
           alt="app-image"
@@ -83,16 +83,16 @@ const Hero = () => {
         />
 
         {/* Glows */}
-        <div className="absolute bottom-10 left-4 animate-green-glow">
+        <div className="absolute  md:block hidden bottom-10 left-4 animate-green-glow">
           <Image className="w-[244px]" src={GreenGlow} alt="green glow" />
         </div>
-        <div className="absolute top-10 left-4 animate-orange-glow">
+        <div className="absolute md:block hidden  top-10 left-4 animate-orange-glow">
           <Image className="w-[244px]" src={OrangeGlow} alt="orange glow" />
         </div>
-        <div className="absolute top-10 right-4 animate-green-glow-2">
+        <div className="absolute md:block hidden  top-10 right-4 animate-green-glow-2">
           <Image className="w-[244px]" src={GreenGlow} alt="green glow" />
         </div>
-        <div className="absolute bottom-10 right-4 animate-orange-glow-2">
+        <div className="absolute  md:block hidden bottom-10 right-4 animate-orange-glow-2">
           <Image className="w-[244px]" src={OrangeGlow} alt="orange glow" />
         </div>
 
