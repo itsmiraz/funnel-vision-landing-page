@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import Step1 from "@/assets/images/steps/1.webp";
+import Step1 from "@/assets/images/steps/1.png";
 import Step2 from "@/assets/images/steps/2.webp";
 import Step3 from "@/assets/images/steps/3.webp";
 import Step4 from "@/assets/images/steps/4.webp";
@@ -17,9 +17,11 @@ const FunnelSteps = () => {
       <div className="max-w-[649px]  px-[26px] mx-auto py-10">
         {/* Step 1 */}
         <div
-          className={`flex md:flex-row flex-col md:items-center pb-[60px] justify-center gap-x-[76px]`}
+          className={`flex md:flex-row flex-col md:items-center pb-[60px] items-start justify-start md:justify-center gap-x-[56px]`}
         >
-          <Image src={Step1} alt="steps" className="w-[273px] h-[123px]" />
+          <div className="md:w-[763px]">
+          <Image src={Step1} alt="steps" className="md:w-[499px] " />
+          </div>
           <div>
             <h3 className="text-[#F7F9FB] font-roboto whitespace-nowrap font-bold text-[26px] leading-[40px]">
               Share your niche
@@ -45,7 +47,7 @@ const FunnelSteps = () => {
           </div>
           <Image
             src={Step2}
-            className="md:-translate-x-12 w-[273px] h-[123px]"
+            className="md:-translate-x-14 w-[273px] h-[123px]"
             alt="steps"
           />
         </div>
@@ -113,15 +115,15 @@ const FunnelSteps = () => {
           </div>
           <Image
             src={Step6}
-            className="md:-translate-x-10 w-[273px] h-[123px]"
+            className="md:-translate-x-14 w-[273px] h-[123px]"
             alt="steps"
           />
         </div>
         {/* Step 7 */}
         <div
-          className={`flex  md:flex-row flex-col md:translate-x-10 pb-[60px] justify-center gap-x-[49px]`}
+          className={`flex  md:flex-row flex-col md:translate-x-10 pb-[60px] justify-center gap-x-[10px]`}
         >
-          <Image src={Step7} alt="steps" className="w-[273px] h-[123px]" />
+          <Image src={Step7} alt="steps" className="md:w-[273px]  md:-translate-x-12 " />
           <div>
             <h3 className="text-[#F7F9FB] font-roboto font-bold text-[26px] leading-[40px]">
               Launch profit-generating funnel
